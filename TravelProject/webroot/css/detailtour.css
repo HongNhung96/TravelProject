@@ -1,0 +1,138 @@
+ * {
+        box-sizing: border-box;
+    }
+    hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .heading {
+        font-size: 25px;
+        margin-right: 25px;
+    }
+    .btndg{
+        background: #527ff0;
+    }
+    .userphoto{
+            border-radius: 50%;
+    background: #d3d2d3;
+    color: #919090;
+    font-weight: 500;
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    text-align: center;
+    line-height: 65px;
+    font-size: 18px;
+    }
+
+.fa {
+    font-size: 25px;
+}
+
+.checked {
+    color: orange;
+}
+
+/* Three column layout */
+.side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
+}
+
+.middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+}
+
+/* Place text to the right */
+.right {
+    text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The bar container */
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 16px; background-color: #4CAF50; border-radius: 6px;}
+.bar-4 {width: 30%; height: 16px; background-color: #4CAF50; border-radius: 6px;}
+.bar-3 {width: 10%; height: 16px; background-color: #4CAF50; border-radius: 6px;}
+.bar-2 {width: 4%; height: 16px; background-color: #4CAF50; border-radius: 6px;}
+.bar-1 {width: 15%; height: 16px; background-color: #4CAF50; border-radius: 6px;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+    .side, .middle {
+        width: 100%;
+    }
+    .right {
+        display: none;
+    }
+}
+
+        .hide-bullets {
+            list-style:none;
+            margin-left: -40px;
+            margin-top:20px;
+        }
+         hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+       .tabli{
+            background: #F78536;
+        }
+        .fa {
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome;
+            font-size: inherit;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        a{
+            color: #7f7f7f;
+        }
+        .checked {
+            color: orange;
+        }
+        #danhgiatb{
+            font-size: 47px;
+            color: red;
+        }
+        .star-ratings-sprite {
+              background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+              font-size: 0;
+              height: 21px;
+              line-height: 0;
+              overflow: hidden;
+              text-indent: -999em;
+              width: 110px;
+              margin: 0 auto;
+  }
+  
+  .centerp {
+    text-align: center;
+  }
+  }
+
+/*// Stuff for Pen styling*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+body { margin: 50px; text-align: center; font-family: 'Open Sans', sans-serif; background: #f2fbff; }
+em { font-style: italic; }
+h1 { font-size: 24px; margin-bottom: 25px; font-weight: bold; text-transform: uppercase; }
+h2 { font-size: 16px; margin-bottom: 15px;}s
